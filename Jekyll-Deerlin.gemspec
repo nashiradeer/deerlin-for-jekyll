@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "Jekyll-Deerlin"
-  spec.version       = "0.1.0"
-  spec.authors       = ["Nashira"]
-  spec.email         = ["velocicraft2088@gmail.com"]
+  spec.version       = "1.0.0"
+  spec.authors       = ["Nashira Deer"]
+  spec.email         = ["nashiradeer@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Deerlin is a theme developed by Nashira Deer to be used in his websites that uses Jekyll."
+  spec.homepage      = "https://www.nashiradeer.tk/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
