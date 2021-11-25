@@ -1,0 +1,44 @@
+@import "rouge-native";
+
+html {
+    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+    color: #fffef6;
+    background-color: #7b00e0;
+}
+
+#content {
+    margin: 20px 280px;
+    padding: 20px 30px;
+    background-color: #e0b9ff;
+}
+
+h1, h2 {
+    border-bottom: 2px solid #4db8ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4db8ff;
+    font-weight: bolder;
+}
+
+code {
+    width: auto;
+}
+
+#navbar {
+    padding: 20px 90px;
+}
+
+#navbar-items {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-items img {
+    height: 90%;
+}
+
+#navbar-items li {
+    display: flex;
+}
