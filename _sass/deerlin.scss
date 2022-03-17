@@ -7,8 +7,6 @@ html {
     background-color: var(--background-color);
 }
 
-// TODO: Move to desktop.scss
-// TODO: Use a size based on %
 main {
     margin: 40px 20%;
 }
@@ -18,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
 }
 
-// TODO: Test on mobile platforms
 h1, h2 {
     border-bottom: 3px solid var(--title-color);;
 }
@@ -62,7 +59,6 @@ td {
     border: 1px solid var(--table-color);
 }
 
-// TODO: Move padding to desktop.scss
 .highlight pre {
     border: 7px solid var(--code-border-color);
     border-radius: 5px;
