@@ -52,8 +52,10 @@ table {
 
 th {
     padding: 10px;
-    background: var(--table-color);
-    color: var(--background-color);
+    background: var(--table-background-color);
+    color: var(--font-color);
+    border: 1px solid var(--table-color);
+    font-weight: normal;
 }
 
 td {
