@@ -1,13 +1,13 @@
-<div id="navbar" >
+<div id="navbar">
     <div id="navbar-items">
         <img src="{{ site.logomark-image }}" />
         <li>
             {% for navbar_item in site.navbar-items %}
-            <ol>
+            <ul>
                 <a href="{{ navbar_item.url }}">
                 {{ navbar_item.name }}
                 </a>
-            </ol>
+            </ul>
             {% endfor %}
         </li>
     </div>
