@@ -44,6 +44,24 @@ blockquote {
     padding: 1px 0 1px 10px;
 }
 
+table {
+    border: 1px solid var(--table-color);
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    padding: 10px;
+    background: var(--table-color);
+    color: var(--background-color);
+}
+
+td {
+    padding: 10px;
+    border: 1px solid var(--table-color);
+}
+
 // TODO: Move padding to desktop.scss
 .highlight pre {
     border: 7px solid var(--code-border-color);
