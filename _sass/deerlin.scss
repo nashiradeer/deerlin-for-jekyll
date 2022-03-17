@@ -36,8 +36,15 @@ hr {
     border: 1px solid var(--title-color);
 }
 
+blockquote {
+    background-color: var(--blockquote-background-color);
+    color: var(--blockquote-font-color);
+    border-left: 2px solid var(--blockquote-border-color);
+    border-radius: 0px 5px 5px 0px;
+    padding: 1px 0 1px 10px;
+}
+
 // TODO: Move padding to desktop.scss
-// TODO: Use % on size
 .highlight pre {
     border: 7px solid var(--code-border-color);
     border-radius: 5px;
