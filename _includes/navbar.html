@@ -1,15 +1,15 @@
 <div id="navbar">
     <div id="navbar-items">
         <img src="{{ site.logomark-image }}" />
-        <li>
+        <ul>
             {% for navbar_item in site.navbar-items %}
-            <ul>
+            <li>
                 <a href="{{ navbar_item.url }}">
                 {{ navbar_item.name }}
                 </a>
-            </ul>
+            </li>
             {% endfor %}
-        </li>
+        </ul>
     </div>
     <hr>
 </div>
