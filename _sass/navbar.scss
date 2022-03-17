@@ -1,6 +1,6 @@
 #navbar {
-    padding-top: 1%;
-    margin: 0 10%;
+    padding-top: 20px;
+    margin: 0 5%;
 }
 
 #navbar div {
@@ -15,13 +15,18 @@
 }
 
 #navbar img {
-    height: 90%;
+    max-width: 40%;
+    max-height: 90%;
 }
 
 #navbar ul {
     list-style-type: none;
     display: flex;
-    width: 70%;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 100%;
+    max-width: 58%;
+    align-items: center;
     justify-content: flex-end;
 }
 
@@ -38,6 +43,7 @@
     background-color: var(--navbar-background-color);
     color: var(--background-color);
     font-size: 20px;
+    white-space: nowrap;
     text-decoration: none;
     border-radius: 5px;
 }
