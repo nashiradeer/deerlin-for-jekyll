@@ -2,7 +2,7 @@
 @import "color";
 
 html {
-    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
     color: var(--font-color);
     background-color: var(--background-color);
 }
@@ -30,6 +30,10 @@ a, a:visited {
 
 a:hover {
     color: var(--hover-color);
+}
+
+hr {
+    border: 1px solid var(--title-color);
 }
 
 // TODO: Move padding to desktop.scss
