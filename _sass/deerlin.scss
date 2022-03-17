@@ -1,37 +1,54 @@
 @import "fruity";
+@import "color";
 
 html {
     font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
-    color: #fffef6;
-    background-color: #7b00e0;
+    color: var(--font-color);
+    background-color: var(--background-color);
 }
 
-#content {
+main {
     margin: 20px 280px;
     padding: 20px 30px;
-    background-color: #e0b9ff;
 }
 
 h1, h2 {
-    border-bottom: 2px solid #4db8ff;
+    border-bottom: 3px solid var(--title-color);;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #4db8ff;
+    color: var(--title-color);
     font-weight: bolder;
 }
 
-code {
-    width: auto;
+a, a:visited {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
+.highlight pre {
+    border: 7px solid var(--code-border-color);
+    border-radius: 5px;
+    padding: 7px;
+    overflow: auto;
+}
+
+.highlight code {
+    border-radius: 5px;
 }
 
 #navbar {
-    padding: 20px 90px;
+    padding-top: 1%;
+    margin: 0 10%;
 }
 
 #navbar-items {
     height: 100px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -39,6 +56,31 @@ code {
     height: 90%;
 }
 
-#navbar-items li {
+#navbar-items ul {
+    list-style-type: none;
     display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+
+#navbar-items li {
+    margin-left: 10px;
+}
+
+#navbar-items li:first-child {
+    margin-left: 0;
+}
+
+#navbar-items a, #navbar-items a:visited {
+    padding: 10px 15px 13px;
+    background-color: var(--button-background-color);
+    color: var(--background-color);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#navbar-items a:hover {
+    color: var(--button-background-color);
+    background-color: var(--background-color);
 }
