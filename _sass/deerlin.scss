@@ -7,18 +7,21 @@ html {
     background-color: var(--background-color);
 }
 
+// TODO: Move to desktop.scss
+// TODO: Use a size based on %
 main {
     margin: 20px 280px;
     padding: 20px 30px;
 }
 
-h1, h2 {
-    border-bottom: 3px solid var(--title-color);;
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: var(--title-color);
     font-weight: bolder;
+}
+
+// TODO: Test on mobile platforms
+h1, h2 {
+    border-bottom: 3px solid var(--title-color);;
 }
 
 a, a:visited {
@@ -29,6 +32,8 @@ a:hover {
     color: var(--hover-color);
 }
 
+// TODO: Move padding to desktop.scss
+// TODO: Use % on size
 .highlight pre {
     border: 7px solid var(--code-border-color);
     border-radius: 5px;
