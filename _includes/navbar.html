@@ -1,12 +1,15 @@
 <div id="navbar">
     <div>
-        <img src="{{ site.logomark-image }}" />
+        {% if site.logomark %}
+            <img src="{{ site.logomark }}" alt="{{ site.title }}" />
+        {% else %}
+            <a>{{ site.title }}</a>
+        {% endif %}
+
         <ul>
-            {% for navbar_item in site.navbar-items %}
+            {% for item in site.navbar %}
             <li>
-                <a href="{{ navbar_item.url }}">
-                {{ navbar_item.name }}
-                </a>
+                <a href="{{ item.url }}">{{ item.name }}</a>
             </li>
             {% endfor %}
         </ul>

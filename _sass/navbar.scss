@@ -16,7 +16,12 @@
 
 #navbar img {
     max-width: 40%;
-    max-height: 90%;
+    max-height: 70%;
+}
+
+#navbar > div > a {
+    font-size: 55px;
+    font-weight: bolder;
 }
 
 #navbar ul {
@@ -38,7 +43,7 @@
     margin-left: 0;
 }
 
-#navbar a, #navbar a:visited {
+#navbar li > a, #navbar li > a:visited {
     padding: 10px 15px 13px;
     background-color: var(--navbar-background-color);
     color: var(--background-color);
@@ -48,7 +53,7 @@
     border-radius: 5px;
 }
 
-#navbar a:hover {
+#navbar li > a:hover {
     color: var(--navbar-background-color);
     background-color: var(--background-color);
     border: 1px solid var(--navbar-background-color);
