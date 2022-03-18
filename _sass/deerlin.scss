@@ -20,11 +20,11 @@ h1, h2 {
     border-bottom: 3px solid var(--title-color);;
 }
 
-a, a:visited {
+main a, main a:visited {
     color: var(--link-color);
 }
 
-a:hover {
+main a:hover {
     color: var(--hover-color);
 }
 
