@@ -1,7 +1,7 @@
 title: Deerlin Theme
 description: Deerlin is a theme developed by Nashira Deer to be used in his websites that uses Jekyll.
 google-analytics:
-logomark: https://placeholder.com/wp-content/uploads/2018/10/placeholder-1.png
+logomark:
 navbar:
   - name: Home
     url: /
