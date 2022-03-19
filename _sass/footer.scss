@@ -1,0 +1,20 @@
+footer {
+    background-color: var(--footer-background-color);
+    color: var(--font-color);
+    width: 100%;
+}
+
+footer div {
+    position: relative;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 20px;
+}
+
+footer a, footer a:visited {
+    color: var(--link-color);
+}
+
+footer a:hover {
+    color: var(--hover-color);
+}

@@ -7,6 +7,11 @@ html {
     background-color: var(--background-color);
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 main {
     margin: 40px 20%;
 }
@@ -71,3 +76,4 @@ td {
 }
 
 @import "navbar";
+@import "footer";
