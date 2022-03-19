@@ -7,3 +7,5 @@ navbar:
     url: /
   - name: Another Page
     url: /another-page
+plugins:
+  - jekyll-seo-tag
