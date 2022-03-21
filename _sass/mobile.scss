@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1000px) {
+    main {
+        margin: 10px 5%;
+    }
+
+    #navbar > div > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #navbar a.website-title {
+        font-size: 30px;
+        font-weight: bolder;
+        white-space: nowrap;
+        margin: auto 3% auto 0;
+    }
+
+    #navbar a#menu-btn {
+        padding: 3%;
+        border: 1px solid var(--title-color);
+        border-radius: 5px;
+    }
+
+    #navbar a#menu-btn div {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        margin: 6px 0;
+    }
+
+    #navbar ul {
+        display: block;
+    }
+}

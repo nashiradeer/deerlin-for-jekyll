@@ -12,6 +12,18 @@ body {
     margin: 0;
 }
 
+@media only screen and (min-width: 1001px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
 main {
     margin: 40px 20%;
 }

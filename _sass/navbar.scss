@@ -1,61 +1,63 @@
-#navbar {
-    padding-top: 20px;
-    margin: 0 5%;
-}
+@media only screen and (min-width: 1001px) {
+    #navbar {
+        padding-top: 20px;
+        margin: 0 5%;
+    }
 
-#navbar div {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    #navbar > div {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-#navbar hr {
-    border: 2px solid var(--horizontal-color);
-}
+    #navbar hr {
+        border: 2px solid var(--horizontal-color);
+    }
 
-#navbar img {
-    max-width: 40%;
-    max-height: 70%;
-}
+    #navbar img.website-title {
+        max-width: 40%;
+        max-height: 70%;
+    }
 
-#navbar > div > a {
-    font-size: 55px;
-    font-weight: bolder;
-    white-space: nowrap;
-}
+    #navbar a.website-title {
+        font-size: 55px;
+        font-weight: bolder;
+        white-space: nowrap;
+    }
 
-#navbar ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
-    height: 100%;
-    max-width: 58%;
-    align-items: center;
-    justify-content: flex-end;
-}
+    #navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        height: 100%;
+        max-width: 58%;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
-#navbar li {
-    margin-left: 10px;
-}
+    #navbar li {
+        margin-left: 10px;
+    }
 
-#navbar li:first-child {
-    margin-left: 0;
-}
+    #navbar li:first-child {
+        margin-left: 0;
+    }
 
-#navbar li > a, #navbar li > a:visited {
-    padding: 10px 15px 13px;
-    background-color: var(--navbar-background-color);
-    color: var(--background-color);
-    font-size: 20px;
-    white-space: nowrap;
-    text-decoration: none;
-    border-radius: 5px;
-}
+    #navbar li > a, #navbar li > a:visited {
+        padding: 10px 15px 13px;
+        background-color: var(--navbar-background-color);
+        color: var(--background-color);
+        font-size: 20px;
+        white-space: nowrap;
+        text-decoration: none;
+        border-radius: 5px;
+    }
 
-#navbar li > a:hover {
-    color: var(--navbar-background-color);
-    background-color: var(--background-color);
-    border: 1px solid var(--navbar-background-color);
+    #navbar li > a:hover {
+        color: var(--navbar-background-color);
+        background-color: var(--background-color);
+        border: 1px solid var(--navbar-background-color);
+    }
 }
