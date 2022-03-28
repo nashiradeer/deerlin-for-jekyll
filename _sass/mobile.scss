@@ -6,7 +6,9 @@
     #navbar > div > div {
         display: flex;
         justify-content: space-between;
-        background-color: var(--title-color);
+        //background-color: var(--title-color);
+        border-bottom: 3px solid var(--title-color);
+        //border-radius: 0 0 5px 5px;
     }
 
     #navbar a.website-title {
@@ -18,7 +20,7 @@
 
     #navbar a#menu-btn {
         padding: 3%;
-        border-right: 3px solid var(--background-color);
+        border-right: 3px solid var(--title-color);
     }
 
     #navbar a#menu-btn div {
@@ -29,6 +31,35 @@
     }
 
     #navbar ul {
+        display: none;
+    }
+
+    #navbar ul li {
+        border-top: 1px solid var(--background-color);
+    }
+
+    #navbar ul li:first-child {
+        border: 0;
+    }
+
+    #navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #navbar ul a, #navbar ul a:visited {
+        padding: 16px 3%;
+        width: 100%;
+        background-color: var(--navbar-background-color);
+        color: var(--background-color);
+        font-size: 20px;
+        white-space: nowrap;
+        text-decoration: none;
         display: block;
+    }
+
+    #navbar ul a:first-child {
+        border: 0;
     }
 }
