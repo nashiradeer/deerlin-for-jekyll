@@ -6,6 +6,7 @@
     #navbar > div > div {
         display: flex;
         justify-content: space-between;
+        background-color: var(--title-color);
     }
 
     #navbar a.website-title {
@@ -17,8 +18,7 @@
 
     #navbar a#menu-btn {
         padding: 3%;
-        border: 1px solid var(--title-color);
-        border-radius: 5px;
+        border-right: 3px solid var(--background-color);
     }
 
     #navbar a#menu-btn div {
