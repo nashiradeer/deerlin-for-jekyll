@@ -29,8 +29,11 @@
         background-color: #fff;
         margin: 6px 0;
     }
-
+    
     #navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
         display: none;
     }
 
@@ -42,11 +45,7 @@
         border: 0;
     }
 
-    #navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+    
 
     #navbar ul a, #navbar ul a:visited {
         padding: 16px 3%;
