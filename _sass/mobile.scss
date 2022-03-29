@@ -6,9 +6,7 @@
     #navbar > div > div {
         display: flex;
         justify-content: space-between;
-        //background-color: var(--title-color);
         border-bottom: 3px solid var(--title-color);
-        //border-radius: 0 0 5px 5px;
     }
 
     #navbar a.website-title {
@@ -44,8 +42,6 @@
     #navbar ul li:first-child {
         border: 0;
     }
-
-    
 
     #navbar ul a, #navbar ul a:visited {
         padding: 16px 3%;
