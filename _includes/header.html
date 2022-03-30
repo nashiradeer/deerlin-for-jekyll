@@ -1,4 +1,4 @@
-<div id="navbar">
+<header>
     <div>
         <div>
             <a onclick="toggleNavbar();" class="mobile-only" id="menu-btn"><div> </div><div> </div><div> </div></a>
@@ -10,13 +10,15 @@
             {% endif %}
         </div>
 
-        <ul id="navbar-menu">
-            {% for item in site.navbar %}
-            <li>
-                <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+        <nav>
+            <ul>
+                {% for item in site.navbar %}
+                <li>
+                    <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        <nav>
     </div>
     <hr class="desktop-only">
-</div>
+<header>
