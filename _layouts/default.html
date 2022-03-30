@@ -23,6 +23,18 @@
                     navbar.display = "none"
             }
         </script>
+
+        {% if site.google-analytics %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="{{ 'https://www.googletagmanager.com/gtag/js?id=' | append: site.google-analytics }}"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{ site.google-analytics }}');
+        </script>
+        {% endif %}
     </head>
     <body>
         <header>
