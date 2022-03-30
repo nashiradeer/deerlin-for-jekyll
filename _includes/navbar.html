@@ -1,12 +1,16 @@
 <div id="navbar">
     <div>
-        {% if site.logomark %}
-            <img src="{{ site.logomark }}" alt="{{ site.title }}" />
-        {% else %}
-            <a>{{ site.title }}</a>
-        {% endif %}
+        <div>
+            <a onclick="toggleNavbar();" class="mobile-only" id="menu-btn"><div> </div><div> </div><div> </div></a>
+            {% if site.logomark %}
+                <a class="mobile-only website-title">{{ site.title }}</a>
+                <img class="desktop-only website-title" src="{{ site.logomark }}" alt="{{ site.title }}" />
+            {% else %}
+                <a class="website-title">{{ site.title }}</a>
+            {% endif %}
+        </div>
 
-        <ul>
+        <ul id="navbar-menu">
             {% for item in site.navbar %}
             <li>
                 <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
@@ -14,5 +18,5 @@
             {% endfor %}
         </ul>
     </div>
-    <hr>
+    <hr class="desktop-only">
 </div>
