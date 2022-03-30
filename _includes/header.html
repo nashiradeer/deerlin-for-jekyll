@@ -10,15 +10,13 @@
             {% endif %}
         </div>
 
-        <nav>
-            <ul>
-                {% for item in site.navbar %}
-                <li>
-                    <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        <nav>
+        <ul id="navbar">
+            {% for item in site.navbar %}
+            <li>
+                <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
     <hr class="desktop-only">
-<header>
+</header>
