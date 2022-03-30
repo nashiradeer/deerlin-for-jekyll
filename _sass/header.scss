@@ -1,32 +1,32 @@
 @media only screen and (min-width: 1001px) {
-    #navbar {
+    header {
         padding-top: 20px;
         margin: 0 5%;
     }
 
-    #navbar > div {
+    #header-container {
         height: 100px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
-    #navbar hr {
+    header hr {
         border: 2px solid var(--horizontal-color);
     }
 
-    #navbar img.website-title {
+    header img.website-title {
         max-width: 40%;
         max-height: 70%;
     }
 
-    #navbar a.website-title {
+    header a.website-title {
         font-size: 55px;
         font-weight: bolder;
         white-space: nowrap;
     }
 
-    #navbar ul {
+    #navbar {
         list-style-type: none;
         display: flex;
         flex-wrap: nowrap;
@@ -45,7 +45,7 @@
         margin-left: 0;
     }
 
-    #navbar li > a, #navbar li > a:visited {
+    #navbar a, #navbar a:visited {
         padding: 10px 15px 13px;
         background-color: var(--navbar-background-color);
         color: var(--background-color);
@@ -55,7 +55,7 @@
         border-radius: 5px;
     }
 
-    #navbar li > a:hover {
+    #navbar a:hover {
         color: var(--navbar-background-color);
         background-color: var(--background-color);
         border: 1px solid var(--navbar-background-color);

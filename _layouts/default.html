@@ -15,7 +15,7 @@
 
         <script>
             function toggleNavbar() {
-                var navbar = document.getElementById('navbar-menu').style;
+                var navbar = document.getElementById('navbar').style;
 
                 if (!navbar.display || navbar.display == "none")
                     navbar.display = "block";
@@ -37,16 +37,12 @@
         {% endif %}
     </head>
     <body>
-        <header>
-            {% include navbar.html %}
-        </header>
+        {% include header.html %}
 
         <main>
             {{ content }}
         </main>
 
-        <footer>
-            {% include footer.html %}
-        </footer>
+        {% include footer.html %}
     </body>
 </html>

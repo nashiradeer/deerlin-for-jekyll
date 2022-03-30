@@ -3,47 +3,47 @@
         margin: 10px 5%;
     }
 
-    #navbar > div > div {
+    #title-container {
         display: flex;
         justify-content: space-between;
         border-bottom: 3px solid var(--title-color);
     }
 
-    #navbar a.website-title {
+    header a.website-title {
         font-size: 30px;
         font-weight: bolder;
         white-space: nowrap;
         margin: auto 3% auto 0;
     }
 
-    #navbar a#menu-btn {
+    header a#menu-btn {
         padding: 11.5px;
         border-right: 3px solid var(--title-color);
     }
 
-    #navbar a#menu-btn div {
+    header a#menu-btn div {
         width: 35px;
         height: 5px;
         background-color: #fff;
         margin: 6px 0;
     }
     
-    #navbar ul {
+    #navbar {
         list-style-type: none;
         margin: 0;
         padding: 0;
         display: none;
     }
 
-    #navbar ul li {
+    #navbar li {
         border-top: 1px solid var(--background-color);
     }
 
-    #navbar ul li:first-child {
+    #navbar li:first-child {
         border: 0;
     }
 
-    #navbar ul a, #navbar ul a:visited {
+    #navbar a, #navbar a:visited {
         padding: 16px 3%;
         width: 100%;
         background-color: var(--navbar-background-color);
@@ -54,7 +54,7 @@
         display: block;
     }
 
-    #navbar ul a:first-child {
+    #navbar a:first-child {
         border: 0;
     }
 
