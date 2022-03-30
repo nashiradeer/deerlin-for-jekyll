@@ -1,52 +1,35 @@
-# Jekyll-Deerlin
+# Deerlin Theme for Jekyll
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+Deerlin Theme for Jekyll is a implementation of the Deerlin Theme for the Jekyll or to be used in GitHub Pages.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## Why need use Deerlin?
 
-TODO: Delete this and the text above, and describe your gem
+Deerlin gives to the Jekyll or GitHub Pages website developers a navbar, a footer, support for OpenGraph and Google Analytics and another features available with a simple edit in the configuration file.
 
+## How to use Deerlin for Jekyll?
 
-## Installation
+1. Add the following code to your ``_config.yml``
 
-Add this line to your Jekyll site's `Gemfile`:
+    ```yml
+    remote_theme: NashiraDeer/Jekyll-Deerlin@v1.0.0
+    plugins:
+    - jekyll-remote-theme 
+    ```
 
-```ruby
-gem "Jekyll-Deerlin"
-```
+2. If you running locally, don't forget to add the following line to your ``Gemfile``
 
-And add this line to your Jekyll site's `_config.yml`:
+    ```ruby
+    gem "jekyll-remote-theme"
+    ```
 
-```yaml
-theme: Jekyll-Deerlin
-```
+## Customizing Deerlin Theme
 
-And then execute:
+TODO: Write about how you can change the Deerlin theme color or modify another thing in the style.
 
-    $ bundle
+## Contributing to Deerlin for Jekyll
 
-Or install it yourself as:
+TODO: Write about how to you can install the development environment.
 
-    $ gem install Jekyll-Deerlin
+## Credits
 
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `Jekyll-Deerlin.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+TODO: Say about the license and the proprietary favicon used.
