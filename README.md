@@ -37,30 +37,30 @@ Deerlin for Jekyll don't take control of all features implemented, please see th
 
 ### Configuration file
 
-**footer**
+**footer**  
 Add a custom message to the footer.
 
-**theme-color**
+**theme-color**  
 Set the default theme color. (See [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color))
 
-**google-analytics**
+**google-analytics**  
 A GA4 Tag from Google Analytics to be used.
 
-**logomark**
+**logomark**  
 URL for the logo that gonna be used as website title in the desktop mode.
 
-**navbar**
+**navbar**  
 A array of objects used to build the navbar.
 
-**navbar.name**
+**navbar.name**  
 Name of the navbar button.
 
-**navbar.url**
+**navbar.url**  
 The URL to be redirected if clicked.
 
 ### Page configuration
 
-**theme-color**
+**theme-color**  
 Set the page theme color. (See [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color))
 
 ### Color theme
@@ -82,4 +82,4 @@ Deerlin for Jekyll uses variables as colors that can be edit easily.
 
 The favicon used in this website is a property of Nashira Deer and DeerSoftware. All Rights Reserved.
 
-The Deerlin is idealized and created by [NashiraDeer](https://github.com/NashiraDeer), licensed with the [MIT License](https://github.com/NashiraDeer/Jekyll-Deerlin/blob/dev/LICENSE.txt) to anyone can use, modify and distribute your own Deerlin .
+The Deerlin Theme is idealized and created by [NashiraDeer](https://github.com/NashiraDeer), licensed with the [MIT License](https://github.com/NashiraDeer/Jekyll-Deerlin/blob/dev/LICENSE.txt) to anyone can use, modify and distribute your own Deerlin Theme.
