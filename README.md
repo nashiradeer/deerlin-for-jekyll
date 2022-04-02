@@ -1,6 +1,9 @@
 # Deerlin Theme for Jekyll
 
-TODO: Add some shields.
+[https://img.shields.io/github/v/release/NashiraDeer/Jekyll-Deerlin](https://github.com/NashiraDeer/Jekyll-Deerlin/releases)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/NashiraDeer/Jekyll-Deerlin)](https://github.com/NashiraDeer/Jekyll-Deerlin/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/NashiraDeer/Jekyll-Deerlin)](https://github.com/NashiraDeer/Jekyll-Deerlin/issues)
+[![GitHub](https://img.shields.io/github/license/NashiraDeer/Jekyll-Deerlin)](https://github.com/NashiraDeer/Jekyll-Deerlin/blob/dev/LICENSE.txt)
 
 Deerlin Theme for Jekyll is a implementation of the Deerlin Theme for the GitHub Pages or to be used directly in Jekyll.
 
