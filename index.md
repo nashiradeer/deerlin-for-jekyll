@@ -1,5 +1,6 @@
 ---
 layout: default
+canonical_url: /
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
