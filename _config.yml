@@ -10,5 +10,7 @@ navbar:
     url: /
   - name: Another Page
     url: /another-page
+theme: jekyll-theme-deerlin
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
