@@ -27,11 +27,11 @@ If applicable, add screenshots to help explain your problem.
  - Version: [e.g. 1.0.0]
 
 **Jekyll (please complete the following information):**
- - Version: [e.g. 4.2.2]
+ - Version: [e.g. 4.2.2, 3.9.0]
  - Environment: [e.g. Local, GitHub Pages]
 
 **Browser (please complete the following information):**
- - Name: [e.g. Chrome, Edge, Firefox]
+ - Name: [e.g. Chrome, Edge, Firefox, Vivaldi]
  - Version: [e.g. 100.0, 99.0]
 
 **Additional context**
