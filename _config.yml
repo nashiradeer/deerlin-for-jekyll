@@ -5,6 +5,7 @@ footer: The favicon used in this website belongs to Nashira Deer. All rights res
 theme-color: '#a914ee'
 google-analytics: G-J6261MBX9H
 logomark:
+exclude: [ SECURITY.md ]
 navbar:
   - name: Home
     url: /
