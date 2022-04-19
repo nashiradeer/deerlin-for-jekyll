@@ -3,6 +3,10 @@
         margin: 10px 5%;
     }
 
+    .highlight pre {
+        max-width: 84%;
+    }
+
     #title-container {
         display: flex;
         justify-content: space-between;
