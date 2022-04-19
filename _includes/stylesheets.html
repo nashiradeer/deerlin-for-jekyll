@@ -1,3 +1,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 <link rel="stylesheet" media="screen and (max-width: 1000px)" href="{{ '/assets/css/mobile.css?v=' | append: site.github.build_revision | relative_url }}">
 <link rel="stylesheet" media="screen and (min-width: 1001px)" href="{{ '/assets/css/desktop.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% if site.deprecated-features.enabled and site.deprecated-features.source-sans-pro %}
+
+{% endif %}

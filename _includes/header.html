@@ -2,11 +2,11 @@
     <div id="header-container">
         <div id="title-container">
             <div onclick="toggleNavbar();" class="mobile-only" id="menu-btn"><div> </div><div> </div><div> </div></div>
-            {% if site.logomark %}
-                <a class="mobile-only website-title">{{ site.title }}</a>
+            {% if site.deprecated-features.logomark and site.deprecated-features.enabled %}
+                <a href="{{ '/' | relative_url }}" class="mobile-only website-title">{{ site.title }}</a>
                 <img class="desktop-only website-title" src="{{ site.logomark }}" alt="{{ site.title }}" />
             {% else %}
-                <a class="website-title">{{ site.title }}</a>
+                <a  href="{{ '/' | relative_url }}" class="website-title">{{ site.title }}</a>
             {% endif %}
         </div>
 
