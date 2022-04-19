@@ -8,31 +8,13 @@
         {% seo %}
 
         <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="{{ '/assets/css/mobile.css?v=' | append: site.github.build_revision | relative_url }}">
-        <link rel="stylesheet" media="screen and (min-width: 1001px)" href="{{ '/assets/css/desktop.css?v=' | append: site.github.build_revision | relative_url }}">
 
-        <script>
-            function toggleNavbar() {
-                var navbar = document.getElementById('navbar').style;
+        {% stylesheets.html %}
 
-                if (!navbar.display || navbar.display == "none")
-                    navbar.display = "block";
-                else
-                    navbar.display = "none";
-            }
-        </script>
+        {% include mobile-navbar.html %}
 
         {% if site.google-analytics %}
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="{{ 'https://www.googletagmanager.com/gtag/js?id=' | append: site.google-analytics }}"></script>
-            <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', '{{ site.google-analytics }}');
-        </script>
+        {% include google-analytics.html %}
         {% endif %}
     </head>
     <body>
