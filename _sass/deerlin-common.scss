@@ -85,6 +85,8 @@ td {
 header a.website-title {
     font-weight: bolder;
     white-space: nowrap;
+    text-decoration: none;
+    color: var(--font-color);
 }
 
 #navbar {
