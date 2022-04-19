@@ -34,16 +34,12 @@ header div#menu-btn div {
 }
 
 #navbar li {
-    border-top: 1px solid var(--background-color);
-}
-
-#navbar li:first-child {
-    border: 0;
+    margin-top: 3px;
 }
 
 #navbar a, #navbar a:visited {
     padding: 16px 3%;
-    width: 100%;
+    width: 94%;
     display: block;
 }
 
