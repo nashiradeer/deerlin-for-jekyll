@@ -1,16 +1,6 @@
 @media only screen and (max-width: 1000px) {
     main {
         margin: 10px 5%;
-        font-size: 18px;
-    }
-
-    .highlight pre {
-        font-size: 16px;
-        max-width: 93%;
-    }
-    
-    blockquote {
-        margin: 18px 10px;
     }
 
     #title-container {
@@ -20,22 +10,22 @@
     }
 
     header a.website-title {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bolder;
         white-space: nowrap;
         margin: auto 3% auto 0;
     }
 
     header a#menu-btn {
-        padding: 11.5px 13px;
+        padding: 11.5px;
         border-right: 3px solid var(--title-color);
     }
 
     header a#menu-btn div {
-        width: 45px;
+        width: 35px;
         height: 5px;
         background-color: var(--navbar-menubtn-color);
-        margin: 10px 0;
+        margin: 6px 0;
     }
     
     #navbar {
@@ -55,11 +45,10 @@
 
     #navbar a, #navbar a:visited {
         padding: 16px 3%;
-        width: 94%;
+        width: 100%;
         background-color: var(--navbar-background-color);
         color: var(--background-color);
-        font-size: 23px;
-        font-weight: bold;
+        font-size: 20px;
         white-space: nowrap;
         text-decoration: none;
         display: block;
@@ -71,7 +60,6 @@
 
     footer {
         margin: 0;
-        font-size: 17px;
     }
 
     footer hr {
