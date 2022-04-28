@@ -16,15 +16,16 @@ header a.website-title {
 }
 
 header div#menu-btn {
-    padding: 11.5px;
+    margin-bottom: -1px;
+    padding: 8px 12px;
     border-right: 3px solid var(--title-color);
 }
 
 header div#menu-btn div {
-    width: 35px;
+    width: 40px;
     height: 5px;
     background-color: var(--navbar-menubtn-color);
-    margin: 6px 0;
+    margin: 8px 0;
 }
 
 #navbar {
