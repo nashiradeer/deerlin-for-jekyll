@@ -3,5 +3,12 @@
 <link rel="stylesheet" media="screen and (min-width: 1001px)" href="{{ '/assets/css/desktop.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% if site.deprecated-features.enabled and site.deprecated-features.source-sans-pro %}
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<style>
+    html {
+        font-family: 'Source Sans Pro', Arial, sans-serif;
+    }
+</style>
 {% endif %}
