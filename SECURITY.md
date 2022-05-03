@@ -4,6 +4,7 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 1.1.x   | :white_check_mark: |
 | 1.0.x   | :white_check_mark: |
 
 ## Supported Jekyll Versions
@@ -21,7 +22,7 @@
 
 | Browser  | Version | Supported          |
 | -------- | ------- | ------------------ |
-| Chromium | > 99.0  | 
+| Chromium | > 99.0  | :white_check_mark: |
 | Firefox  | > 98.0  | :white_check_mark: |
 | Safari   | > 14    | :white_check_mark: |
 
