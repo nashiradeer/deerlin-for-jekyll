@@ -5,57 +5,49 @@ main {
 
 // <header>
 header {
-    padding-top: 20px;
-    margin: 0 5%;
-}
-
-#header-container {
-    height: 100px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
-header hr {
-    border: 2px solid var(--horizontal-color);
-}
-
-header img.website-title {
-    max-width: 40%;
-    max-height: 70%;
-}
-
-header a.website-title {
-    font-size: 55px;
-}
-
-#navbar {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
-    height: 100%;
-    max-width: 58%;
     align-items: center;
-    justify-content: flex-end;
+    height: 120px;
+    margin: 0 5% 0;
+    border-bottom: 3px solid var(--title-color);
 }
 
-#navbar li {
+nav {
+    width: 70%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav ul li {
     margin-left: 10px;
+    padding: 12px 0;
+    list-style: none;
+    background-color: var(--navbar-background-color);
+    border-radius: 5px;
+    height: fit-content;
 }
 
-#navbar li:first-child {
+nav ul li:first-child {
     margin-left: 0;
 }
 
-#navbar a, #navbar a:visited {
-    padding: 10px 15px 13px;
-    border-radius: 5px;
-}
-
-#navbar a:hover {
-    color: var(--navbar-background-color);
-    background-color: var(--background-color);
-    border: 1px solid var(--navbar-background-color);
+nav ul li a {
+    color: var(--background-color);
+    padding: 12px;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 // <footer>

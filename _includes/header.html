@@ -1,15 +1,15 @@
 <header>
-    <div id="header-container">
-        <div id="title-container">
-            <div onclick="toggleNavbar();" class="mobile-only" id="menu-btn"><div> </div><div> </div><div> </div></div>
-            {% if site.deprecated-features.logomark and site.deprecated-features.enabled %}
-                <a href="{{ '/' | relative_url }}" class="mobile-only website-title">{{ site.title }}</a>
-                <img class="desktop-only website-title" src="{{ site.logomark }}" alt="{{ site.title }}" />
-            {% else %}
-                <a  href="{{ '/' | relative_url }}" class="website-title">{{ site.title }}</a>
-            {% endif %}
-        </div>
+    <div id="title">
+        <div onclick="toggleNavbar();" class="mobile-only" id="menu-btn"><div> </div><div> </div><div> </div></div>
+        {% if site.deprecated-features.logomark and site.deprecated-features.enabled %}
+            <a href="{{ '/' | relative_url }}" class="mobile-only">{{ site.title }}</a>
+            <img class="desktop-only" src="{{ site.logomark }}" alt="{{ site.title }}" />
+        {% else %}
+            <a  href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% endif %}
+    </div>
 
+    <nav>
         <ul id="navbar">
             {% for item in site.navbar %}
             <li>
@@ -17,6 +17,5 @@
             </li>
             {% endfor %}
         </ul>
-    </div>
-    <hr class="desktop-only">
+    </nav>
 </header>
