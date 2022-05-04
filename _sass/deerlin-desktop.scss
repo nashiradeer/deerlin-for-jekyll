@@ -21,12 +21,8 @@ header #title img {
 }
 
 header #title a {
-    color: var(--font-color);
     margin-right: 30px;
     font-size: 55px;
-    font-weight: bolder;
-    text-decoration: none;
-    white-space: nowrap;
 }
 
 nav {
@@ -36,8 +32,6 @@ nav {
 }
 
 #navbar {
-    padding: 0;
-    margin: 0;
     width: fit-content;
     height: 100%;
     display: flex;
@@ -59,16 +53,11 @@ nav {
 }
 
 #navbar li a {
-    color: var(--background-color);
+    padding: 12px;
     font-size: 17px;
-    font-weight: 600;
     background-color: var(--navbar-background-color);
     border: 2px solid var(--navbar-background-color);
     border-radius: 5px;
-    padding: 12px;
-    box-sizing: border-box;
-    text-decoration: none;
-    white-space: nowrap;
 }
 
 #navbar li a:hover {

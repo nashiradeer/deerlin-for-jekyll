@@ -23,10 +23,6 @@ header #title {
 
 header #title a {
     font-size: 35px;
-    color: var(--font-color);
-    text-decoration: none;
-    font-weight: 800;
-    white-space: nowrap;
     overflow: hidden;
     margin: auto 3% auto 0;
 }
@@ -48,25 +44,16 @@ nav {
     display: none;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
+#navbar li {
     margin-top: 4px;
     background-color: var(--title-color);
     list-style: none;
 }
 
-nav a {
+#navbar a {
     padding: 16px 3%;
-    font-weight: 600;
     font-size: 25px;
-    text-decoration: none;
     width: 94%;
-    color: var(--background-color);
-    display: block;
 }
 
 // <footer>

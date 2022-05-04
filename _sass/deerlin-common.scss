@@ -91,6 +91,24 @@ td {
 }
 
 // <header>
+header #title a {
+    color: var(--font-color);
+    font-weight: bolder;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#navbar {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar a {
+    color: var(--background-color);
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
 
 // <footer>
 footer {
