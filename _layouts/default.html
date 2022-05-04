@@ -21,6 +21,12 @@
         {% include header.html %}
 
         <main>
+            <noscript>
+                <div>
+                    {{ site.noscript }}
+                </div>
+            </noscript>
+
             {{ content }}
         </main>
 

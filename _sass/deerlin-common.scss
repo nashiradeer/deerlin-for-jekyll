@@ -21,6 +21,15 @@ body {
     margin: 0;
 }
 
+noscript div {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: var(--noscript-font-color);
+    background-color: var(--noscript-background-color);
+    border: 3px solid var(--noscript-border-color);
+    border-radius: 5px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--title-color);
     font-weight: bolder;
