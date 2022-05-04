@@ -13,15 +13,32 @@ header {
     border-bottom: 3px solid var(--title-color);
 }
 
+// Deprecated
+header #title img {
+    max-width: 40%;
+    max-height: 70%;
+    margin-right: 30px;
+}
+
+header #title a {
+    color: var(--font-color);
+    margin-right: 30px;
+    font-size: 55px;
+    font-weight: bolder;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
 nav {
-    width: 70%;
+    max-width: 70%;
     height: 100%;
     overflow-x: auto;
 }
 
-nav ul {
+#navbar {
     padding: 0;
     margin: 0;
+    width: fit-content;
     height: 100%;
     display: flex;
     justify-content: right;
@@ -30,24 +47,33 @@ nav ul {
     flex-wrap: nowrap;
 }
 
-nav ul li {
+#navbar li {
     margin-left: 10px;
     padding: 12px 0;
     list-style: none;
-    background-color: var(--navbar-background-color);
-    border-radius: 5px;
     height: fit-content;
 }
 
-nav ul li:first-child {
+#navbar li:first-child {
     margin-left: 0;
 }
 
-nav ul li a {
+#navbar li a {
     color: var(--background-color);
+    font-size: 17px;
+    font-weight: 600;
+    background-color: var(--navbar-background-color);
+    border: 2px solid var(--navbar-background-color);
+    border-radius: 5px;
     padding: 12px;
     box-sizing: border-box;
     text-decoration: none;
+    white-space: nowrap;
+}
+
+#navbar li a:hover {
+    color: var(--navbar-background-color);
+    background-color: var(--background-color);
 }
 
 // <footer>

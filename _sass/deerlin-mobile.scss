@@ -14,7 +14,60 @@ div.highlight {
 }
 
 // <header>
+header #title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--title-color);
+}
 
+header #title a {
+    font-size: 35px;
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: auto 3% auto 0;
+}
+
+header #menu-btn {
+    margin-bottom: -1px;
+    padding: 10px 12px;
+    border-right: 3px solid var(--title-color);
+}
+
+header #menu-btn div {
+    width: 40px;
+    height: 5px;
+    background-color: var(--navbar-menubtn-color);
+    margin: 8px 0;
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-top: 4px;
+    background-color: var(--title-color);
+    list-style: none;
+}
+
+nav a {
+    padding: 16px 3%;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    width: 94%;
+    color: var(--background-color);
+    display: block;
+}
 
 // <footer>
 footer {
