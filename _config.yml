@@ -13,7 +13,7 @@ navbar:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-noscript: Your browser has JavaScript disabled and you may experience issues in the navbar because of this. 
+noscript: Your browser has JavaScript disabled and you may experience issues in the navigation menu because of this. 
 deprecated-features: 
   enabled: false
   logomark:
