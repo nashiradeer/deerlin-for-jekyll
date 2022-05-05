@@ -31,15 +31,15 @@ noscript div {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--title-color);
+    color: var(--theme-color);
     font-weight: bolder;
 }
 
 h1, h2 {
-    border-bottom: 3px solid var(--title-color);;
+    border-bottom: 3px solid var(--theme-color);;
 }
 
-main a, main a:visited {
+main a {
     color: var(--link-color);
 }
 
@@ -48,20 +48,20 @@ main a:hover {
 }
 
 hr {
-    background-color: var(--horizontal-color);
-    border: 1px solid var(--title-color);
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
 }
 
 blockquote {
     background-color: var(--blockquote-background-color);
     color: var(--blockquote-font-color);
-    border-left: 2px solid var(--blockquote-border-color);
+    border-left: 3px solid var(--blockquote-border-color);
     border-radius: 0px 5px 5px 0px;
     padding: 1px 0 1px 10px;
 }
 
 table {
-    border: 1px solid var(--table-color);
+    border: 1px solid var(--table-out-border-color);
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -69,30 +69,39 @@ table {
 th {
     padding: 10px;
     background: var(--table-background-color);
-    color: var(--font-color);
-    border: 1px solid var(--table-color);
+    color: var(--table-font-color);
+    border-left: 1px solid var(--table-in-border-color);
+    border-bottom: 1px solid var(--table-in-border-color);
     font-weight: normal;
+}
+
+th:first-child {
+    border-left: 0;
 }
 
 td {
     padding: 10px;
-    border: 1px solid var(--table-color);
+    background-color: var(--cell-background-color);
+    color: var(--cell-font-color);
+    border: 1px solid var(--cell-border-color);
 }
 
-.highlight pre {
+div.highlight {
+    background-color: transparent;
+}
+
+pre.highlight {
+    padding: 7px;
+    color: var(--font-color);
+    background-color: var(--code-background-color);
     border: 7px solid var(--code-border-color);
     border-radius: 5px;
-    padding: 7px;
     overflow: auto;
-}
-
-.highlight code {
-    border-radius: 5px;
 }
 
 // <header>
 header #title a {
-    color: var(--font-color);
+    color: var(--navbar-title-color);
     font-weight: bolder;
     text-decoration: none;
     white-space: nowrap;
@@ -112,25 +121,21 @@ header #title a {
 
 // <footer>
 footer {
-    color: var(--font-color);
+    color: var(--footer-font-color);
     text-align: center;
 }   
 
 footer div {
     margin: 0 auto;
+    border-top: 2px solid var(--footer-theme-color);
     width: fit-content;
 }
 
-footer hr {
-    background-color: var(--horizontal-color);
-    border: 1px solid var(--horizontal-color);
-}
 
-
-footer a, footer a:visited {
-    color: var(--link-color);
+footer a {
+    color: var(--footer-link-color);
 }
 
 footer a:hover {
-    color: var(--hover-color);
+    color: var(--footer-hover-color);
 }

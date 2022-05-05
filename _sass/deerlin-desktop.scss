@@ -10,7 +10,7 @@ header {
     align-items: center;
     height: 120px;
     margin: 0 5% 0;
-    border-bottom: 3px solid var(--title-color);
+    border-bottom: 3px solid var(--navbar-theme-color);
 }
 
 // Deprecated
@@ -55,13 +55,13 @@ nav {
 #navbar li a {
     padding: 12px;
     font-size: 17px;
-    background-color: var(--navbar-background-color);
-    border: 2px solid var(--navbar-background-color);
+    background-color: var(--navbar-theme-color);
+    border: 2px solid var(--navbar-theme-color);
     border-radius: 5px;
 }
 
 #navbar li a:hover {
-    color: var(--navbar-background-color);
+    color: var(--navbar-theme-color);
     background-color: var(--background-color);
 }
 
