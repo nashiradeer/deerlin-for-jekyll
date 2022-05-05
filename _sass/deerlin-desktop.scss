@@ -1,6 +1,6 @@
 // <body>
 main {
-    margin: 40px 20%;
+    margin: 40px 25%;
 }
 
 // <header>
@@ -8,8 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
-    margin: 0 5% 0;
+    height: 160px;
+    margin: 0 15% 0;
     border-bottom: 3px solid var(--navbar-theme-color);
 }
 
@@ -76,4 +76,15 @@ footer div {
 
 footer hr {
     margin-bottom: 50px;
+}
+
+// Tablets
+@media only screen and (max-width: 1200px) {
+    main {
+        margin: 40px 5%;
+    }
+
+    header {
+        margin: 0 5% 0;
+    }
 }
