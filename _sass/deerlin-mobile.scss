@@ -51,9 +51,10 @@ nav {
 }
 
 #navbar a {
+    display: block;
     padding: 16px 3%;
     font-size: 25px;
-    width: 94%;
+    box-sizing: border-box;
 }
 
 // <footer>

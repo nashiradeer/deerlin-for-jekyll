@@ -43,7 +43,6 @@ nav {
 
 #navbar li {
     margin-left: 10px;
-    padding: 12px 0;
     list-style: none;
     height: fit-content;
 }
@@ -53,6 +52,7 @@ nav {
 }
 
 #navbar li a {
+    display: block;
     padding: 12px;
     font-size: 17px;
     background-color: var(--navbar-theme-color);
