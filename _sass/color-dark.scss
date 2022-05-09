@@ -4,8 +4,8 @@
     --theme-color: #a85cf9;
 
     --navbar-theme-color: var(--theme-color);
-    --navbar-title-color: #fff;
-    --navbar-menubtn-color: #fff;
+    --navbar-title-color: var(--font-color);
+    --navbar-menubtn-color: var(--font-color);
 
     --footer-font-color: var(--font-color);
     --footer-theme-color: var(--theme-color);
