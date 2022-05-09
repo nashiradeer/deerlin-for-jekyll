@@ -41,7 +41,14 @@ header #menu-btn div {
 }
 
 nav {
-    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s;
+}
+
+nav.open {
+    max-height: var(--navbar-height);
+    transition: max-height .5s;
 }
 
 #navbar li {

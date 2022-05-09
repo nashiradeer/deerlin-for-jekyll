@@ -41,10 +41,12 @@ h1, h2 {
 
 main a {
     color: var(--link-color);
+    transition: color .25s;
 }
 
 main a:hover {
     color: var(--hover-color);
+    transition: color .25s;
 }
 
 hr {

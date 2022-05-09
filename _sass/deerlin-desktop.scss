@@ -58,11 +58,13 @@ nav {
     background-color: var(--navbar-theme-color);
     border: 2px solid var(--navbar-theme-color);
     border-radius: 5px;
+    transition: color .25s, background-color .25s;
 }
 
 #navbar li a:hover {
     color: var(--navbar-theme-color);
     background-color: var(--background-color);
+    transition: color .25s, background-color .25s;
 }
 
 // <footer>
