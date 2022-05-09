@@ -1,0 +1,78 @@
+// <main>
+main {
+    margin: 10px 5%;
+}
+
+blockquote {
+    margin: 16px 5%;
+    padding-right: 16px;
+}
+
+div.highlight {
+    max-width: 90%;
+    margin: auto 
+}
+
+// <header>
+header #title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--navbar-theme-color);
+}
+
+header #title a {
+    font-size: 35px;
+    overflow: hidden;
+    margin: auto 3% auto 0;
+}
+
+header #menu-btn {
+    margin-bottom: -1px;
+    padding: 10px 12px;
+    border-right: 3px solid var(--navbar-theme-color);
+}
+
+header #menu-btn div {
+    width: 40px;
+    height: 5px;
+    background-color: var(--navbar-menubtn-color);
+    margin: 8px 0;
+}
+
+nav {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s;
+}
+
+nav.open {
+    max-height: var(--navbar-height);
+    transition: max-height .5s;
+}
+
+#navbar li {
+    margin-top: 4px;
+    background-color: var(--navbar-theme-color);
+    list-style: none;
+}
+
+#navbar a {
+    display: block;
+    padding: 16px 3%;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+// <footer>
+footer {
+    margin: 0;
+}
+
+footer div {
+    padding: 30px 20px 20px;
+}
+
+footer hr {
+    margin-bottom: 32px;
+}

@@ -1,7 +1,7 @@
 :root {
-    --background-color: #222426;
+    --background-color: #8710e3;
     --font-color: #fff;
-    --theme-color: #a85cf9;
+    --theme-color: #fff;
 
     --navbar-theme-color: var(--theme-color);
     --navbar-title-color: var(--font-color);
@@ -12,8 +12,8 @@
     --footer-link-color: var(--link-color);
     --footer-hover-color: var(--hover-color);
 
-    --link-color: #6fdfdf;
-    --hover-color: #4b7be5;
+    --link-color: #42c2ff;
+    --hover-color: #0c93c9;
 
     --noscript-font-color: #BE0000;
     --noscript-background-color: #fff5a5;
@@ -23,16 +23,16 @@
     --code-font-color: var(--font-color);
     --code-border-color: #3c4245;
 
-    --blockquote-background-color: #3c4245;
-    --blockquote-font-color: #e7e7e7;
-    --blockquote-border-color: #f10086;
+    --blockquote-background-color: #fff;
+    --blockquote-font-color: #524a4e;
+    --blockquote-border-color: #fA4eab;
 
     --table-background-color: #fe83c6;
     --table-font-color: var(--font-color);
     --table-in-border-color: #f10086;
     --table-out-border-color: var(--table-in-border-color);
 
-    --cell-background-color: var(--background-color);
-    --cell-font-color: var(--font-color);
+    --cell-background-color: #f2f2f2;
+    --cell-font-color: #1b1a17;
     --cell-border-color: var(--table-in-border-color);
 }

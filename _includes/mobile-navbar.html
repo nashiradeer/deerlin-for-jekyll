@@ -1,0 +1,25 @@
+{% if site.deprecated-features.enabled and site.deprecated-features.legacy-navbar-opening %}
+<script>
+    function toggleNavbar() {
+        var navbar = document.querySelector("nav").style
+
+        if (!navbar.display || navbar.display == "none") {
+            navbar.display = "block";
+        } else {
+            navbar.display = "none";
+        }
+    }
+</script>
+{% else %}
+<script>
+    function toggleNavbar() {
+        var navbar = document.querySelector("nav");
+
+        if (!navbar.classList.contains("open")) {
+            navbar.classList.add("open");
+        } else {
+            navbar.classList.remove("open");
+        }
+    }
+</script>
+{% endif %}
