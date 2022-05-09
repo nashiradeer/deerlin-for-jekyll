@@ -21,10 +21,13 @@
 ## Supported Browsers
 
 | Browser  | Version | Supported          |
-| -------- | ------- | ------------------ |
-| Chromium | > 99.0  | :white_check_mark: |
-| Firefox  | > 98.0  | :white_check_mark: |
-| Safari   | > 14    | :white_check_mark: |
+| -------- | :-----: | ------------------ |
+| IE       |   Any   | :x:                |
+| Edge     | > 16.0  | :white_check_mark: |
+| Chrome   | > 49.0  | :white_check_mark: |
+| Firefox  | > 31.0  | :white_check_mark: |
+| Safari   | > 10.0  | :white_check_mark: |
+| Opera    | > 36.0  | :white_check_mark: |
 
 ## Supported devices
 
@@ -32,7 +35,7 @@
 | ------- | ------------------ |
 | Desktop | :white_check_mark: |
 | Mobile  | :white_check_mark: |
-| Printer | :x:                |
+| Printer | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
