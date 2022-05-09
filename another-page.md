@@ -1,6 +1,6 @@
 ---
 layout: default
-theme-color: '#ff46b8'
+theme-color: '#fe83c6'
 canonical_url: /another-page
 ---
 
