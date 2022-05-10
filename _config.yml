@@ -1,0 +1,38 @@
+# Deerlin Theme
+remote_theme: deersoftware-dev/jekyll-deerlin
+
+# Jekyll Plugins for Deerlin
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# Jekyll SEO Tag
+title: Deerlin Theme
+tagline: Deerlin is a theme for Jekyll.
+description: Deerlin is a theme developed by Nashira Deer to be used in his websites that uses Jekyll.
+
+# Deerlin Navbar
+noscript: Your browser has JavaScript disabled and you may experience issues in the navigation menu because of this. 
+navbar-height: 130px
+navbar:
+  - name: Home
+    url: /
+  - name: Another Page
+    url: /another-page
+
+# Deerlin Footer
+footer: The favicon used in this website belongs to Nashira Deer. All rights reserved.
+
+# Deerlin SEO Tag
+theme-color: '#a85cf9'
+
+# Deerlin Google Analytics
+google-analytics: G-J6261MBX9H
+
+# Deerlin Deprecated Features (Don't use it)
+deprecated-features: 
+  enabled: false
+  logomark:
+  source-sans-pro: false
+  legacy-navbar-opening: false
