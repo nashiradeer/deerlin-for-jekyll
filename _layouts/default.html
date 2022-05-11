@@ -23,7 +23,7 @@
         <main>
             <noscript>
                 <div>
-                    {{ site.noscript }}
+                    {{ site.noscript | default: 'Your browser has JavaScript disabled and you may experience issues in the navigation menu because of this.' }}
                 </div>
             </noscript>
 
