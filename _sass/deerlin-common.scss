@@ -30,13 +30,39 @@ noscript div {
     border-radius: 5px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--theme-color);
     font-weight: bolder;
 }
 
-h1, h2 {
-    border-bottom: 3px solid var(--theme-color);;
+h1,
+h2 {
+    border-bottom: 3px solid var(--theme-color);
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.35em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1.1em;
+}
+
+main {
+    background-color: var(--background-color);
 }
 
 main a {
@@ -125,7 +151,7 @@ header #title a {
 footer {
     color: var(--footer-font-color);
     text-align: center;
-}   
+}
 
 footer div {
     margin: 0 auto;
