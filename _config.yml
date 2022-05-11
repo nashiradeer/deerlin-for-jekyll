@@ -14,7 +14,6 @@ description: Deerlin is a theme developed by Nashira Deer to be used in his webs
 
 # Deerlin Navbar
 noscript: Your browser has JavaScript disabled and you may experience issues in the navigation menu because of this. 
-navbar-height: 130px
 navbar:
   - name: Home
     url: /
