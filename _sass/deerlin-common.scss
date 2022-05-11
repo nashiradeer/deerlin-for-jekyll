@@ -162,8 +162,10 @@ footer div {
 
 footer a {
     color: var(--footer-link-color);
+    transition: color .25s;
 }
 
 footer a:hover {
     color: var(--footer-hover-color);
+    transition: color .25s;
 }
