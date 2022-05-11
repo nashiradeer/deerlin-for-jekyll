@@ -1,5 +1,5 @@
 # Deerlin Theme
-remote_theme: deersoftware-dev/jekyll-deerlin@enhancement/contrast-ratio
+remote_theme: deersoftware-dev/jekyll-deerlin@fbe37853
 
 # Jekyll Plugins for Deerlin
 plugins:
