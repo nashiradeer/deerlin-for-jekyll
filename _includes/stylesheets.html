@@ -1,6 +1,6 @@
 <style>
     :root {
-        --navbar-height: {{ site.navbar-height | default: '65px' }};
+        --navbar-height: {{ site.navbar.size | times: 65 }}px;
     }
 </style>
 
