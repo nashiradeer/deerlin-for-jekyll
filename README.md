@@ -7,12 +7,11 @@
 
 Deerlin Theme for Jekyll is a implementation of the Deerlin Theme for the GitHub Pages or to be used directly in Jekyll.
 
-## What Deerlin offers to me?
+# Features
 
 Deerlin gives to the Jekyll or GitHub Pages website developers a navbar compatible with small screen devices, a customizable footer, support for OpenGraph and Google Analytics and other features available with a simple edit in the configuration file localized in the root as ``_config.yml``.
 
-## How to use Deerlin for Jekyll?
-
+# How to use
 1. Add the following code to your ``_config.yml``
 
     ```yml
@@ -27,18 +26,18 @@ Deerlin gives to the Jekyll or GitHub Pages website developers a navbar compatib
     gem "jekyll-remote-theme"
     ```
 
-## Customizing Deerlin Theme
+# Customizing
 
 Deerlin is very customizable and with Deerlin for Jekyll isn't different, below you can see how to edit each aspect inside Deerlin for Jekyll.
 
-### Plugins
+## Plugins
 
 Deerlin for Jekyll don't take control of all features implemented, please see the docs of the plugins used in Deerlin for Jekyll to you know how to customize them.
 
 **Plugins used:**
 - [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag)
 
-### Configuration file
+## Configuration file
 
 **footer**  
 Add a custom message to the footer.
@@ -61,12 +60,12 @@ Name of the navbar button.
 **navbar.url**  
 The URL to be redirected if clicked.
 
-### Page configuration
+## Page configuration
 
 **theme-color**  
 Set the page theme color. (See [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color))
 
-### Color theme
+## Color theme
 
 Deerlin for Jekyll uses variables as colors that can be edit easily.
 
@@ -74,14 +73,13 @@ Deerlin for Jekyll uses variables as colors that can be edit easily.
 2. Edit `@import "color-dark";` to the color theme of your choose.
 3. You can also copy the content of any color theme scss in `_sass` to your `style.scss` and manually edit each color, don't forget to remove the color theme import if you want use a custom theme color.
 
-
-#### Colors theme available
+### Colors theme available
 
 1. color-dark (default)
 2. color-neutral
 3. color-light
 
-## Credits
+# Credits
 
 The favicon used in this website is a property of Nashira Deer and DeerSoftware. All Rights Reserved.
 
