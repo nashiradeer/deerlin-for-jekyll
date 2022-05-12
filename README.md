@@ -69,7 +69,7 @@ A GA4 Tag from Google Analytics to be used.
 Object used to enable deprecated features that aren't supported anymore.
 
 ### deprecated-features.enabled
-Enable the deprecated features. It is recommended to not set this property as ``true`` since these features are not fixed.
+Enable the deprecated features. It is recommended to not set this property as ``true`` since these features are not maintained anymore.
 
 ### deprecated-features.logomark
 URL for the logo that gonna be used as website title in the desktop mode.
