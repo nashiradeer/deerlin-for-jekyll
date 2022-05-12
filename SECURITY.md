@@ -40,5 +40,5 @@
 ## Reporting a Vulnerability
 
 If you found any type of vulnerability, please report using the GitHub Security Advisories, 
-[clicking here](https://github.com/NashiraDeer/Jekyll-Deerlin/security/advisories/new)
+[clicking here](https://github.com/deersoftware-dev/jekyll-deerlin/security/advisories/new)
 or going on the Security tab on our GitHub repository.
