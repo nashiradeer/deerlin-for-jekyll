@@ -1,9 +1,9 @@
 # Deerlin Theme for Jekyll
 
-[![GitHub release](https://img.shields.io/github/v/release/NashiraDeer/Jekyll-Deerlin)](https://github.com/NashiraDeer/Jekyll-Deerlin/releases)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/NashiraDeer/Jekyll-Deerlin)](https://github.com/NashiraDeer/Jekyll-Deerlin/pulls)
-[![GitHub issues](https://img.shields.io/github/issues/NashiraDeer/Jekyll-Deerlin)](https://github.com/NashiraDeer/Jekyll-Deerlin/issues)
-[![GitHub license](https://img.shields.io/github/license/NashiraDeer/Jekyll-Deerlin)](https://github.com/NashiraDeer/Jekyll-Deerlin/blob/dev/LICENSE.txt)
+[![GitHub release](https://img.shields.io/github/v/release/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/releases)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/issues)
+[![GitHub license](https://img.shields.io/github/license/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/blob/dev/LICENSE.txt)
 
 Deerlin Theme for Jekyll is a implementation of the Deerlin Theme for the GitHub Pages or to be used directly in Jekyll.
 
@@ -16,7 +16,7 @@ Deerlin gives to the Jekyll or GitHub Pages website developers a navbar compatib
 1. Add the following code to your ``_config.yml``
 
     ```yml
-    remote_theme: NashiraDeer/Jekyll-Deerlin@v1.0.0
+    remote_theme: deersoftware-dev/jekyll-deerlin@v1.1.0
     plugins:
     - jekyll-remote-theme 
     ```
@@ -85,4 +85,4 @@ Deerlin for Jekyll uses variables as colors that can be edit easily.
 
 The favicon used in this website is a property of Nashira Deer and DeerSoftware. All Rights Reserved.
 
-The Deerlin Theme is idealized and created by [NashiraDeer](https://github.com/NashiraDeer), licensed with the [MIT License](https://github.com/NashiraDeer/Jekyll-Deerlin/blob/dev/LICENSE.txt) to anyone can use, modify and distribute your own Deerlin Theme.
+The Deerlin Theme is a project from [DeerSoftware](https://github.com/deersoftware-dev) and is licensed with the [MIT License](https://github.com/deersoftware-dev/jekyll-deerlin/blob/dev/LICENSE.txt) to anyone can use, modify and distribute your own Deerlin Theme.
