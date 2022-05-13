@@ -1,5 +1,5 @@
 # Deerlin Theme
-remote_theme: deersoftware-dev/jekyll-deerlin@v1.1.0-rc.1
+remote_theme: deersoftware-dev/jekyll-deerlin@v1.1.0
 
 # Jekyll Plugins for Deerlin
 plugins:
