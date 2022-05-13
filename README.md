@@ -44,6 +44,8 @@ Deerlin Theme for Jekyll relies on these plugins for some of its functions like 
 
 ## Config file (_config.yml)
 
+The configuration file is located in the root folder of the project, it contains the properties that will be applied to the web site as a whole.
+
 ### noscript
 An error note displayed for users who have not allowed JavaScript to run in their browsers.
 
@@ -82,6 +84,8 @@ Enable the legacy mobile navbar script which uses the display property instead o
 
 ## Per-Page Configuration
 
+The configuration per page is located at the top of each page file and its function is to configure the page to which they belong.
+
 ### theme-color
 Sets meta theme color on this page, overriding the default. (See [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color))
 
@@ -91,9 +95,11 @@ Sets meta theme color on this page, overriding the default. (See [Mozilla Docs](
 
 Deerlin uses CSS variables to define the colors of its elements, so that any customization in the color theme can be quick and easy.
 
+### Editing color theme
+
 1. Copy `assets/css/style.scss` from Deerlin for Jekyll to your web site.
 2. Edit `@import "color-dark";` to the color theme of your choose.
-3. You can also copy the content of any color theme in `_sass` folder to your `style.scss` and manually edit each color value, don't forget to remove the import declaration if you want use a custom theme color.
+3. You can also copy the content of any color theme in `_sass` folder to your `style.scss` and manually edit each color value, don't forget to remove the import declaration if you want use a custm color theme.
 
 ### Builtin color themes
 
@@ -104,7 +110,19 @@ Deerlin uses CSS variables to define the colors of its elements, so that any cus
 
 ## Rouge theme
 
+Rouge is the library that Jekyll uses to render code blocks and Deerlin leaves it free for the web site author to use the Rouge theme he wants, even offering some themes.
+
+### Editing Rouge theme
+
+1. Copy `assets/css/style.scss` from Deerlin for Jekyll to your web site.
+2. Edit `@import "rouge-molokai";` to the Rouge theme of your choose.
+3. You can also copy the content of any Rouge theme in `_sass` folder or download from the internet to your `style.scss` and manually edit each color value, don't forget to remove the import declaration if you want use a custom Rouge theme.
+
 ### Builtin Rouge themes
+
+1. rouge-molokai (default)
+2. rouge-igorpro
+3. rouge-fruity
 
 # Credits
 
