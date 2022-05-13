@@ -1,124 +1,135 @@
 ---
 layout: default
-canonical_url: /
+canonical_url: https://www.deersoftware.dev/jekyll-deerlin/
 ---
+# Deerlin Theme for Jekyll
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+[![GitHub release](https://img.shields.io/github/v/release/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/releases)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/issues)
+[![GitHub license](https://img.shields.io/github/license/deersoftware-dev/jekyll-deerlin)](https://github.com/deersoftware-dev/jekyll-deerlin/blob/dev/LICENSE.txt)
 
-[Link to another page](./another-page.html).
+Deerlin Theme for use on Jekyll-powered web sites such as GitHub Pages.
 
-There should be whitespace between paragraphs.
+# Features
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+- Customizable footer
+- Desktop devices
+- Google Analytics 4
+- [Meta theme color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color)
+- Mobile devices
+- Navigation bar
+- Printer devices
+- Tablet devices
 
-# Header 1
+# Recommended Plugins
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Deerlin Theme for Jekyll relies on these plugins for some of its functions like managing the tags used by SEO.
 
-## Header 2
+- [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+# How to use
 
-### Header 3
+1. Add the following code to your ``_config.yml``
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+    ```yml
+    remote_theme: deersoftware-dev/jekyll-deerlin@v1.1.0
+    plugins:
+    - jekyll-remote-theme 
+    ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+2. If you running locally, don't forget to add the following line to your ``Gemfile``
 
-#### Header 4
+    ```ruby
+    gem "jekyll-remote-theme"
+    ```
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+# Documentation
 
-##### Header 5
+## Config file (_config.yml)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+The configuration file is located in the root folder of the project, it contains the properties that will be applied to the web site as a whole.
 
-###### Header 6
+### noscript
+An error note displayed for users who have not allowed JavaScript to run in their browsers.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+### navbar
+Object array containing the items of the navigation bar.
 
-### There's a horizontal rule below this.
+### navbar.name
+Display name of this navbar item.
 
-* * *
+### navbar.url
+URL of this navbar item.
 
-### Here is an unordered list:
+### footer
+A custom message to the footer.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+### theme-color
+Sets the default meta theme color. (See [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color))
 
-### And an ordered list:
+### google-analytics
+A GA4 Tag from Google Analytics to be used.
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+### deprecated-features
+Object used to enable deprecated features that aren't supported anymore.
 
-### And a nested list:
+### deprecated-features.enabled
+Enable the deprecated features. It is recommended to not set this property as ``true`` since these features are not maintained anymore.
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+### deprecated-features.logomark
+URL for the logo that gonna be used as website title in the desktop mode.
 
-### Small image
+### deprecated-features.source-sans-pro
+Enables the use of the Source Sans Pro font. It is not recommended to use this font as it slows down Deerlin's performance.
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+### legacy-navbar-opening
+Enable the legacy mobile navbar script which uses the display property instead of a CSS class and has no animation.
 
-### Large image
+## Per-Page Configuration
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+The configuration per page is located at the top of each page file and its function is to configure the page to which they belong.
 
+### theme-color
+Sets meta theme color on this page, overriding the default. (See [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color))
 
-### Definition lists can be used with HTML syntax.
+# Customizing
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## Color theme
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+Deerlin uses CSS variables to define the colors of its elements, so that any customization in the color theme can be quick and easy.
 
-```
-The final element.
-```
+### Editing color theme
+
+1. Copy `assets/css/style.scss` from Deerlin for Jekyll to your web site.
+2. Edit `@import "color-dark";` to the color theme of your choose.
+3. You can also copy the content of any color theme in `_sass` folder to your `style.scss` and manually edit each color value, don't forget to remove the import declaration if you want use a custm color theme.
+
+### Builtin color themes
+
+1. color-dark (default)
+2. color-neutral
+3. color-light
+4. color-deersoftware
+
+## Rouge theme
+
+Rouge is the library that Jekyll uses to render code blocks and Deerlin leaves it free for the web site author to use the Rouge theme he wants, even offering some themes.
+
+### Editing Rouge theme
+
+1. Copy `assets/css/style.scss` from Deerlin for Jekyll to your web site.
+2. Edit `@import "rouge-molokai";` to the Rouge theme of your choose.
+3. You can also copy the content of any Rouge theme in `_sass` folder or download from the internet to your `style.scss` and manually edit each color value, don't forget to remove the import declaration if you want use a custom Rouge theme.
+
+### Builtin Rouge themes
+
+1. rouge-molokai (default)
+2. rouge-igorpro
+3. rouge-fruity
+
+# Credits
+
+The favicon used in this web site is a property of DeerSoftware. All Rights Reserved.
+
+The Deerlin Theme is a project from [DeerSoftware](https://github.com/deersoftware-dev) and is licensed with the [MIT License](https://github.com/deersoftware-dev/jekyll-deerlin/blob/dev/LICENSE.txt) to anyone can use, modify and distribute your own Deerlin Theme.

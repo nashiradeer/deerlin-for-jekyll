@@ -1,9 +1,9 @@
 ---
 layout: default
 theme-color: '#fe83c6'
-canonical_url: /another-page
+permalink: /another-page
+canonical_url: https://www.deersoftware.dev/jekyll-deerlin/another-page
 ---
-
 ## Welcome to another page
 
 _yay_
