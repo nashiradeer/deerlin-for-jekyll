@@ -9,8 +9,8 @@ plugins:
 
 # Jekyll SEO Tag
 title: Deerlin Theme
-tagline: Deerlin is a theme for Jekyll.
-description: Deerlin is a theme developed by Nashira Deer to be used in his websites that uses Jekyll.
+tagline: A Jekyll theme by DeerSoftware.
+description: Deerlin is a theme developed by DeerSoftware for use on websites made for Jekyll.
 
 # Deerlin Navbar
 noscript: Your browser has JavaScript disabled and you may experience issues in the navigation menu because of this. 
@@ -21,7 +21,7 @@ navbar:
     url: /another-page
 
 # Deerlin Footer
-footer: The favicon used in this website belongs to Nashira Deer. All rights reserved.
+footer: The favicon used in this website belongs to DeerSoftware. All rights reserved.
 
 # Deerlin SEO Tag
 theme-color: '#a85cf9'
