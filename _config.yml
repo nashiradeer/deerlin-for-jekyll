@@ -17,6 +17,8 @@ noscript: Your browser has JavaScript disabled and you may experience issues in 
 navbar:
   - name: Home
     url: /
+  - name: GitHub Test
+    url: /github-test
   - name: Another Page
     url: /another-page
 
