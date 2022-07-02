@@ -5,7 +5,7 @@
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.1.x   | :white_check_mark: |
-| 1.0.x   | :white_check_mark: |
+| 1.0.x   | :x:                |
 
 ## Supported Jekyll Versions
 
@@ -39,6 +39,6 @@
 
 ## Reporting a Vulnerability
 
-If you found any type of vulnerability, please report using the GitHub Security Advisories, 
+If you found any type of vulnerability, please report using the GitHub Security Advisories,
 [clicking here](https://github.com/deersoftware-dev/jekyll-deerlin/security/advisories/new)
 or going on the Security tab on our GitHub repository.
