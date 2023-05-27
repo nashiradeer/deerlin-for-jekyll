@@ -9,7 +9,7 @@ Deerlin Theme for use on Jekyll-powered web sites such as GitHub Pages.
 
 ## Warning
 
-Support for v1.0.x versions (e.g. v1.0.0, v1.0.1, v1.0.2...) ended on July 1, 2022, if it is one of the supported versions we recommend you upgrade to a newer version.
+**Support for the Deerlin Theme for Jekyll will end on July 1, 2023, thanks to all members of this project.**
 
 ## Features
 
